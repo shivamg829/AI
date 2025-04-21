@@ -2,7 +2,7 @@
 let prompt=document.querySelector("#prompt")
 let chatContainer=document.querySelector(".chat-container")
 let imagebtn=document.querySelector("#img")
-const Api_Url="https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=AIzaSyAHpVzQSfizRkyij5UE7YJLs7rUJT58pHA"
+const Api_Url="https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=yourAPI"
 let user={
     data:null,
 }
